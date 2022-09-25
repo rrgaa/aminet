@@ -1,0 +1,82 @@
+.banner{
+    padding-top: 250px;
+    height: 100vh;
+}
+.tagline {
+    font-size: 18px;
+    font-weight: 600;
+}
+.Toko {
+    width: 540px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: -180px;
+}
+.Product {
+    padding-bottom: 50px;
+}
+.Product-title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.Tokped .TokpedImg {
+    height: 62px;
+}
+.Button-1{
+    border-radius: 35px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 20px 35px;
+}
+.Footer {
+    background-color: black;
+    height: 50vh;
+}
+.Contact {
+    margin-top: 50px;
+    height: 50vh;
+    margin-bottom: 50px;
+}
+/* Laptop Screen */
+@media only screen and (min-width: 900px){
+    .Toko{
+        margin-left: 650px;
+    }
+}
+/* Large Screen */
+@media only screen and (min-width: 1367px){
+    .Toko{
+        margin-left: 800px;
+    }
+}
+/* Small Phone Screen */
+@media only screen and (max-width: 400px){
+    .banner{
+        margin-top: -30px;
+        margin-left: 10px;
+    }
+    .Toko {
+        width: 320px;
+        margin-left: -5px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+   
+}
+/* Medium Phone Screen */
+@media  only screen and (max-width: 600px) {
+    .Toko{
+        position: relative;
+        width: 360px;
+        margin-left: -6px;
+        margin-bottom: 15px;
+    } 
+    
+    .Product{
+        margin-left: 25px;
+    }
+}
+.logo {
+    height: 52px;
+}
